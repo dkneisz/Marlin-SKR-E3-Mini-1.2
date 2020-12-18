@@ -27,6 +27,9 @@
 
 #define NEOPIXEL_PIN                        PC7   // LED driving pin
 
+// Use PT-DET for filament runout
+#undef FIL_RUNOUT_PIN
+#define FIL_RUNOUT_PIN                    PC12  // "PT-DET"
 /**
  * TMC2208/TMC2209 stepper drivers
  */
